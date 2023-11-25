@@ -1,0 +1,21 @@
+.container{
+    color: rgba(149, 148, 148, 1);
+    display: grid;
+    grid-template-columns: repeat(51, 7.5px);
+    grid-gap: 10px;
+    grid-auto-rows: 7.5px; 
+    /* grid-auto-flow: column; */
+}
+
+.item{
+    width: 0px;
+    padding: 7.5px;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+.months{
+    padding: 0px 20px;
+    grid-column: span 4;
+    grid-row: 1/2;
+    transform: translateX(50px);
+}
