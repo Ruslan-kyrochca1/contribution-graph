@@ -1,6 +1,6 @@
-const URL = 'https://dpg.gg/test/calendar.json'
 
-export default async function request(){
+
+export default async function request(URL){
     try {
         const response = await fetch(URL)
         const clientData = await response.json()
